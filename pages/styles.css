@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
 
+
 body {
     margin: 0;
     padding: 0;
@@ -56,14 +57,18 @@ body {
     line-height: 1.2em;
     text-align: center;
     margin: 0;
+    background-color: blue;
+    color: #000;
 }
 
 .header-subtitle h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    background-color: blue;
+    color: #000;
 }
 
 .prompt-container {
@@ -80,11 +85,11 @@ body {
 
 .prompt-box {
     border-bottom-width: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
     border-top-width: 1px;
+    border-color: blue;
     place-content: flex-start;
     align-items: flex-start;
     background-color: rgba(255, 255, 255, 0.05);
@@ -172,7 +177,8 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(0,0,255);
+    color: #000;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -198,7 +204,7 @@ textarea {
 }
 
 .generate p {
-    color: rgb(255, 255, 255);
+    color: #000;
     margin: 0;
 }
 
@@ -392,7 +398,7 @@ textarea {
 
 
 
- /* Loading ring animation */
+
 .loader {
     width: 18px;
     height: 18px;
