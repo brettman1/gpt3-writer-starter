@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
-import buildspaceLogo from "../assets/buildspace-logo.png";
+// import Image from "next/image";
+// import buildspaceLogo from "../assets/buildspace-logo.png";
 import { useState } from "react";
 
 const Home = () => {
@@ -33,20 +33,20 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Contract Extract</title>
+        <title>Cover Letter</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Extract Contract Information</h1>
+            <h1>Cover Letter Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Extracts everything important in a contract</h2>
+            <h2>Provide job title followed by the company you are applying for</h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea
-            placeholder="Paste contract here"
+            placeholder="Example: Software Engineer at Google"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
