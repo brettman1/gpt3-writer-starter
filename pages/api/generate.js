@@ -8,7 +8,7 @@ const openai = new OpenAIApi(configuration);
 const basePromptPrefix = `Write me a detailed cover letter that includes the required skills and experience for the following occupation:
 Occupation: `;
 const generateAction = async (req, res) => {
-  // Run first prompt
+  
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
 
   const baseCompletion = await openai.createCompletion({
